@@ -53,4 +53,4 @@
          (integer? port)
          (> port 0)
          (vector? routes)]}
-  (component/using (map->YadaService (assoc config :routes routes)) []))
+  (map->YadaService (assoc config :routes routes)))
