@@ -8,7 +8,7 @@
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
   :profiles {:uberjar {:aot :all
-                       :main bidi-and-yada.main}
+                       :main example.main}
              :dev {:source-paths ["dev"]
                    :target-path "target/dev"
                    :dependencies [[org.clojure/tools.namespace "0.2.11"]

@@ -1,4 +1,4 @@
-(ns bidi-and-yada.service
+(ns example.service
   (:require [clojure.string :as str]
             [com.stuartsierra.component :as component]
             [taoensso.timbre :as log]

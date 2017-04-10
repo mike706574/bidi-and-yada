@@ -1,8 +1,8 @@
-(ns bidi-and-yada.system
+(ns example.system
   (:require [taoensso.timbre :as log]
             [yada.yada :as yada]
             [bidi.bidi :as bidi]
-            [bidi-and-yada.service :as service]))
+            [example.service :as service]))
 
 (defn hello-routes
   []

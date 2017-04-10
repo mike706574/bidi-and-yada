@@ -1,9 +1,9 @@
-(ns bidi-and-yada.main
+(ns example.main
   (:require [com.stuartsierra.component :as component]
-            [bidi-and-yada.system :as system])
+            [example.system :as system])
   (:gen-class :main true))
 
-(def id "bidi-and-yada")
+(def id "example")
 (def port 8080)
 (def config {:id id :port port})
 

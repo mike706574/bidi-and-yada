@@ -13,10 +13,10 @@
    [clojure.tools.namespace.repl :refer [refresh refresh-all]]
    [clojure.data.json :as json]
    [com.stuartsierra.component :as component]
-   [bidi-and-yada.system :as system]
+   [example.system :as system]
    [clj-http.client :as http]))
 
-(def config {:id "bidi-and-yada" :port 8080})
+(def config {:id "example" :port 8080})
 
 (defonce system
   (system/system config))
